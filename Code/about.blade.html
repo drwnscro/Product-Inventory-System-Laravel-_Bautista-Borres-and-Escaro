@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+     
+      <link rel="stylesheet" href="styless.css">
         <meta charset="UTF-8">
         <meta name="viewsport" content="width-device-width, initial-scale-1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,24 +11,50 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="Index.html">Simple Product Inventory</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <div class="left">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="Index.html">Simple Product Inventory</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="master.blade.html">Home </a>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.blade.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.blade.html">Contact</a>
+          </li>
+        </ul>
+    </div>
+    </nav>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="master.blade.html">Home </a>
-      <li class="nav-item">
-        <a class="nav-link" href="about.blade.html">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.blade.html">Contact Us</a>
-      </li>
-    </ul>
+<div class="container padding-64 c-center" id="team">
+  <h2>OUR TEAM</h2>
+  <p> </p>
+  
+  
+  <div class="row"><br>
+  
+  <div class="quarter">
+    <img src="Quay.png" alt="Mel" style="width:45%" class="circle-1 hover-opacity">
+    <h3>Mel Denzel Bautista</h3>
+    <p>Web Designer</p>
   </div>
-</nav>
+  
+  <div class="quarter">
+    <img src="zyrenn.jpg" alt="Zyrenn" style="width:45%" class="circle-1 hover-opacity">
+    <h3>Zyrenn Borres</h3>
+    <p>Web Designer</p>
+  </div>
+  
+  <div class="quarter">
+    <img src="Quay.png" alt="Darwin" style="width:45%" class="circle-1 hover-opacity">
+    <h3>Darwin Escaro</h3>
+    <p>Web Designer</p>
+  </div>
+  
+
+  
+  </div>
+  </div>
 </body>
 </html>

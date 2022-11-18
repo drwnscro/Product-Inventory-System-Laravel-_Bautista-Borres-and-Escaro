@@ -149,3 +149,7 @@ body{
    margin-left: 0;
  }
 }
+.left{
+  margin-top: auto;
+  margin-left: auto;
+}
