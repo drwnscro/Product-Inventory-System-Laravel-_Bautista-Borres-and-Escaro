@@ -1,0 +1,124 @@
+/* @Title: Project Assessment (CRUD)
+@Description: Create a simple CRUD for your project. Use HTML for the structure, CSS for some UI design (just simple ones), Javascript for 
+interactivity, and PHP/MySQL for the backend.
+@Author: Zyrenn Rose Borres and Darwin Escaro (BSIT)
+@Date Created: September 27, 2022 
+*/
+
+header {
+    font-family: "Poppins";
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: #1c708a;
+    text-align: center;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    width: 80%;
+    margin: 40px auto;
+    border-radius: 20px;
+    background: #f7f8fa;
+    font-family: "Poppins";
+    font-weight: bold;
+    color: #303841;
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+    color: #303841;
+    font-family: "Poppins";
+}
+
+td{
+    text-align: left;
+    padding: 8px 15px;
+    color: #303841;
+    font-family: "Poppins,";
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: #ffffff;
+    font-family: "Poppins,";
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    background: #ffffff;
+    font-family: "Poppins";
+    color: #303841;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #00adb5;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family: "Poppins";
+    font-weight: bold;
+    color: white;
+}
+
+input[type="submit"]:hover{
+    background: #00adb5;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+input[type="reset"]:hover{
+    background: #00adb5;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+button{
+    background: #00adb5;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family: "Poppins";
+    font-weight: bold;
+    color: #ffffff;
+}
+
+button:hover{
+    background:#ffffff ;
+}
+
+footer{
+    background: #303841;
+    border-radius: 15px;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins";
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
